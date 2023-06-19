@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+}
+.section-bg{
+    background-color: #eee;
+}
+.container1{
+    padding: 160px 0 60px 0;
+}
+.fa-play-circle-o{
+    margin-left: 20px;
+}
+.container2{
+    padding: 60px 60px;
+}
+.section3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/ASSETS/IMAGES/img4.jpg") center center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+.form-control{
+    display: block;
+    width: 80%;
+    padding: 10px 10px;
+    margin: 20px 40px 20px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+
+}
+.textarea{
+    width:94%;
+}
+
+.footer{
+        font-size: 14px;
+    background-color: #1f1f24;
+    padding: 60px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 817px) {
+    .card{
+      margin-top: 20px;
+    }
+    .textarea{
+        width: 92%;
+    }
+  }
+  @media screen and (max-width: 1147px) {
+    .margin{
+        margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 913px) {
+    .textarea{
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .textarea{
+        width: 80%;
+    }
+  }
+  @media screen and (max-width: 281px) {
+    .form-control{
+        width: 40%;
+    }
+    .margin{
+        margin-right: 80px;
+        width: 40%;
+       
+    }
+  }
